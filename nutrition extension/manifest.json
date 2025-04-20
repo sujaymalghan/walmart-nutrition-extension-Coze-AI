@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Walmart Nutrition Cart",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.walmart.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
