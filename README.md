@@ -1,4 +1,4 @@
-# walmart-nutrition-extension-Coze-AI# Walmart Nutrition Lookup Extension
+# Walmart-nutrition-extension
 
 
 A small Chrome extension + Python backend + Coze AI workflow that pulls the items in your Walmart cart, looks up their nutrition facts via Nutritionix, formats them with GPT‑4, and logs the results as prompt.
