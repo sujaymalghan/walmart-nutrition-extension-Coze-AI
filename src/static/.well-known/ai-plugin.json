@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Nutrition Insight",
+  "name_for_model": "nutrition_plugin",
+  "description_for_human": "Look up calories & macros for any food item.",
+  "description_for_model": "Use this plugin to retrieve nutrition facts by calling the Nutritionix API.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://green-comics-battle.loca.lt/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://green-comics-battle.loca.lt/.well-known/logo.png",
+  "contact_email": "",
+  "legal_info_url": "https://green-comics-battle.loca.lt/legal"
+}
