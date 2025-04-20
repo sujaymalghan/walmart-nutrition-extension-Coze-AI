@@ -21,9 +21,4 @@ A small Chrome extension + Python backend + Coze AI workflow that pulls the item
   - `content.js` – scrapes the DOM, sends `FETCH_NUTRITION` messages  
   - `background.js` – calls Coze API & returns formatted string
 
-## 🔧 Installation
 
-1. **Clone** this repo  
-   ```bash
-   git clone https://github.com/your‑username/walmart-nutrition-extension.git
-   cd walmart-nutrition-extension
